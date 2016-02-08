@@ -1,0 +1,22 @@
+{
+  "name": "Rogue-Shadows",
+  "authors": [
+    "Teemu Mäkinen <culkah@gmail.com>"
+  ],
+  "description": "Shadowrun inspired roguelike",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build"
+  ],
+  "dependencies": {
+    "rot.js": "^0.5.0"
+  }
+}

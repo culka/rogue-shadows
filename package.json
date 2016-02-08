@@ -1,0 +1,17 @@
+{
+  "name": "Rogue-Shadows",
+  "version": "1.0.0",
+  "description": "Shadowrun inspired roguelike",
+  "main": "main.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "gulp": "^3.9.0",
+    "gulp-tsc": "^1.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Teemu Mäkinen <culkah@gmail.com>",
+  "license": "MIT"
+}
