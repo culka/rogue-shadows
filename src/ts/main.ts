@@ -1,10 +1,11 @@
-///<reference path="reference/rot.d.ts"/>
+///<reference path="interface/messaging.ts"/>
+
 
 function hello(text: string): void {
-    let display = new ROT.Display({ width: 20, height: 5 });
-    document.body.appendChild(display.getContainer());
-    display.drawText(1, 1, text);
-    display.drawText(3, 3, text);
+    let msg = new Messaging();
+
+    msg.displayMessage(text);
+    msg.displayMessage(text);
 }
 
 hello("hello");
