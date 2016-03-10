@@ -1,0 +1,38 @@
+"items": {
+    "weapons": [
+        {
+            "id":0,
+            "name": "pistol",
+            "damage": 5
+        },
+        {
+            "id":1,
+            "name": "shotgun",
+            "damage": 8
+        }
+    ],
+    "armor": [
+        {
+            "id":0,
+            "name": "Trench coat",
+            "protection": 2
+        },
+        {
+            "id":1,
+            "name": "Kevlar vest",
+            "protection": 2
+        }
+    ],
+    "actors": [
+        {
+            "id":0,
+            "name": "Security guard",
+            "hitDice": 3
+        },
+        {
+            "id":1,
+            "name": "Runner",
+            "hitDice": 5
+        }
+    ]
+}
